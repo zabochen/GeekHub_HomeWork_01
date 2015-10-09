@@ -1,0 +1,44 @@
+<manifest
+    package="com.tzabochen.homework_01"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/geekhub_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- ACTIVITY MAIN -->
+        <activity
+            android:name=".AppMain"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- ACTIVITY STUDENTS -->
+        <activity
+            android:name=".Students"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.tzabochen.students"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <!-- ACTIVITY LISTENERS -->
+        <activity
+            android:name=".Listeners"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.tzabochen.listeners"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

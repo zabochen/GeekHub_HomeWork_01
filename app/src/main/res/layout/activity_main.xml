@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/activity_background"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/main_image_view_geekhub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/geekhub_logo"/>
+
+        <LinearLayout
+            android:id="@+id/main_linear_layout_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_image_view_geekhub"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/main_text_view_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_course"
+                android:textSize="@dimen/font_size_24"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/main_text_view_course_android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/main_course_android"
+                android:textSize="@dimen/font_size_24"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/main_image_view_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_linear_layout_course"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_android"/>
+
+        <LinearLayout
+            android:id="@+id/main_linear_layout_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_image_view_android"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/main_button_students"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:padding="15dp"
+                android:text="@string/main_button_students"
+                android:textSize="@dimen/font_size_22"/>
+
+            <Button
+                android:id="@+id/main_button_listeners"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/main_button_listeners"
+                android:textSize="@dimen/font_size_22"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GeekHub Users</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="main_course">Course:</string>
+    <string name="main_course_android">Android</string>
+
+    <string name="main_button_students">Students</string>
+    <string name="main_button_listeners">Listeners</string>
+
+    <!-- ACTIVITY STUDENTS -->
+    <string name="students_title">Students</string>
+
+    <!-- ACTIVITY LISTENERS -->
+    <string name="listeners_title">Listeners</string>
+
+</resources>
